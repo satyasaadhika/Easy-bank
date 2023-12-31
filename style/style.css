@@ -109,14 +109,38 @@ nav ul li a {
     right: -190px;
     transform: scale(1.1);
   }
+p {
+    line-height: 1.4;
+  }
 
 
 section.pros-section {
     background: var(--light-grayish-blue);
     padding: 100px 0;
   }
-
-
+section.pros-section h1 {
+    margin-bottom: 20px;
+  }
+section.pros-section p.section-text {
+    margin-bottom: 60px;
+    color: var(--grayish-blue);
+  }
+section.pros-section .card-wrapper {
+    display: flex;
+  }
+.card-wrapper .card h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+.card-wrapper .card p {
+    font-size: 16px;
+  }
+.card-wrapper .card img {
+    margin-bottom: 30px;
+  }
+section.pros-section .card-wrapper > * + * {
+    margin-left: 30px;
+  }
 
 section.articles-section {
     padding: 100px 0;

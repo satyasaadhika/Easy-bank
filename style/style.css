@@ -21,6 +21,7 @@ html {
     --light-gray: hsl(0, 0%, 98%);
     --white: hsl(0, 0%, 100%);
   }
+  /*Navigation section*/
 .nav-section {
     position: relative;
     z-index: 1;
@@ -37,11 +38,6 @@ nav {
     width: 1120px;
     margin: 0 auto;
     max-width: 90%;
-  }
-
-
-.header-section {
-    background: var(--light-gray);
   }
 img {
     max-width: 100%;
@@ -72,6 +68,48 @@ nav ul li a {
     cursor: pointer;
     transition: all .3s ease-in-out;
   }
+  /*header section*/
+.header-section {
+    background: var(--light-gray);
+  }
+.header-wrap {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 40px;
+  }
+.header-text {
+    flex: 1 0 40%;
+  }
+.header-text h1 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+.header-text p {
+    margin-bottom: 30px;
+    color: var(--grayish-blue);
+  }
+.header-images {
+    flex: 1 0 60%;
+    position: relative;
+  }
+
+.header-images img:first-child {
+    position: relative;
+    top: -50px;
+    transform: scale(1.6);
+    bottom: 0;
+    right: -200px;
+  }
+.header-images img:last-child {
+    position: absolute;
+    top: -160px;
+    right: -190px;
+    transform: scale(1.1);
+  }
+
 
 section.pros-section {
     background: var(--light-grayish-blue);

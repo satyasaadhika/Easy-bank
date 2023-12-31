@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Public Sans', sans-serif;
+}
+html {
+    font-size: 18px;
+}
+
+.root {
+    overflow-x: hidden;
+}
+
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}

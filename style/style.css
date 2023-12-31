@@ -170,4 +170,15 @@ section.articles-section h1 {
     background: var(--white);
     padding: 20px;
   }
+.article-wrapper .content a {
+    padding: 10px 0;
+    display: inline-block;
+    color: var(--dark-blue);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+  }
+.article-wrapper .content p {
+    font-size: 16px;
+    color: var(--grayish-blue);
+  }
 

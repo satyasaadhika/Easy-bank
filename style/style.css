@@ -181,4 +181,6 @@ section.articles-section h1 {
     font-size: 16px;
     color: var(--grayish-blue);
   }
-
+.article-wrapper > * + * {
+    margin-left: 30px;
+  }

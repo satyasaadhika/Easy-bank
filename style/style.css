@@ -184,3 +184,11 @@ section.articles-section h1 {
 .article-wrapper > * + * {
     margin-left: 30px;
   }
+footer {
+    background: var(--dark-blue);
+    padding: 30px;
+  }
+footer .content {
+    display: flex;
+    justify-content: space-between;
+  }
